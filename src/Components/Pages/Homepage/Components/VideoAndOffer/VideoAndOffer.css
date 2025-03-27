@@ -1,0 +1,24 @@
+#videoAndOffer .bgImage{ background-image: url('/public/images/bg.png'); background-repeat: no-repeat; background-position: bottom right;}
+#videoAndOffer .rightWrapper .topText{ font-weight: 400;}
+#videoAndOffer .rightWrapper .offerText{ font-size: 3rem;}
+#videoAndOffer .rightWrapper p{ font-size: 14px;}
+#videoAndOffer .rightWrapper .offerBtn .home_cupon{ border: 1px dotted #f42f77; border-right: unset; margin-right: -5px; 
+    padding: 6px 12px !important; background-color: #ffffff;}
+#videoAndOffer .rightWrapper .offerBtn .home_cupon span.colorNeo{ color: #f42f77;}
+#videoAndOffer .rightWrapper .offerBtn a{ background: #f42f77; border: 1px solid #f42f77; }
+
+@media (max-width: 1399px) {
+    #videoAndOffer .rightWrapper .topText{ font-size: 24px;}
+    #videoAndOffer .rightWrapper .offerText{ font-size: 32px;}
+}
+
+@media (max-width: 991px) {
+    #videoAndOffer .rightWrapper .topText{ font-size: 20px;}
+    #videoAndOffer .rightWrapper .offerText{ font-size: 26px;}
+    #videoAndOffer .rightWrapper .offerBtn .home_cupon{ padding: 4px 10px !important; font-size: 14px;} 
+    #videoAndOffer .rightWrapper .offerBtn a{ padding: 4px 10px; font-size: 14px;}
+}
+
+@media (max-width: 767px) {
+    #videoAndOffer .rightWrapper{ margin-top: 20px;}
+}

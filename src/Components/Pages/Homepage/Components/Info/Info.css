@@ -1,0 +1,17 @@
+#infoSec h3{ font-size: 2rem;}
+#infoSec p, #infoSec ul li{ font-size: 14px; line-height: 24px;}
+#infoSec a{ color: #f42f77; text-decoration: none;}
+#infoSec a.readMore{ text-decoration: underline; font-size: 14px; font-weight: 500;}
+
+@media (max-width: 1199px) {
+    #infoSec h3 { font-size: 1.75rem; }
+}
+
+@media (max-width: 991px) {
+    #infoSec h3 { font-size: 1.4rem; }
+    #infoSec h4 { font-size: 18px; }
+}
+
+@media (max-width: 575px){
+    #infoSec h3 { font-size: 20px; }
+}

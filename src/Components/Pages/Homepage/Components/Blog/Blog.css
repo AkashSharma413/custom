@@ -1,0 +1,21 @@
+#ourBlog .sectionHeading h3{font-size: 1.5rem; font-weight: 400;}
+#ourBlog .blogWrapper .blogThumb{ overflow: hidden;}
+#ourBlog .blogWrapper .blogThumb a{ display: block;}
+#ourBlog .blogWrapper .blogThumb img{ transition: .5s all ease;}
+#ourBlog .blogWrapper .blogThumb:hover img{ transform: scale(1.2);}
+#ourBlog .blogWrapper .date{ color: #666666; font-size: 12px;}
+#ourBlog .blogWrapper .blogTitle{ font-size: 20px; color: #212529; line-height: 26px;}
+#ourBlog .blogWrapper .blogTitle a{ text-decoration: none; color: inherit;}
+#ourBlog .blogWrapper .blogContent{ font-size: 13px; color: #212529; line-height: 18px;}
+#ourBlog .blogWrapper .readMore{ color: #f42f77; font-size: 13px;}
+#ourBlog .readAll{ background-color: #F42F77; color: #ffffff; font-size: 14px; padding: 8px 25px;}
+
+@media (max-width: 991px) {
+    #productVariety .productWrapper { padding: 0px 0px 15px; overflow: hidden; }
+    #ourBlog .blogWrapper .blogTitle{ font-size: 16px; line-height: 20px;}
+    #ourBlog .blogWrapper .blogContent{ font-size: 12px;}
+}
+
+@media (max-width: 575px) {
+    #ourBlog .sectionHeading h3{ font-size: 1.25rem;}
+}

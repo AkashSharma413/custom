@@ -1,0 +1,29 @@
+#moreDesign .sectionHeading h3{font-size: 1.5rem; font-weight: 400;}
+#moreDesign .productList{ gap: 15px;}
+#moreDesign .productList li a{ display: block; text-decoration: none; color: #4c4c4c; font-weight: 600;}
+#moreDesign .productList li a .imgBox{border: 1px solid #d3d3d3; border-radius: 6px; padding: 18px; overflow: hidden;}
+#moreDesign .productList li a .imgBox img{transition: all .5s ease; height: 170px !important;}
+#moreDesign .productList li a:hover .imgBox img{ transform: scale(1.2);}
+#moreDesign .productList li a p{font-size: 14px; text-align: center; padding: 20px 10px; transition: all .5s ease;}
+#moreDesign .productList li a:hover p{ color: #F42F77;}
+#moreDesign .callToAction a{ background-color: #F42F77; color: #ffffff; font-size: 14px; padding: 8px 25px;}
+
+@media (max-width: 1199px) {
+    #moreDesign .productList li a .imgBox img{ height: 250px !important; }
+}
+
+@media (max-width: 991px) {
+    #moreDesign .productList li a .imgBox img { height: 180px !important; }
+}
+
+@media (max-width: 767px) {
+    #moreDesign .productList li a .imgBox{ padding: 12px; }
+    #moreDesign .productList li a .imgBox img { height: 135px !important; }
+}
+
+@media (max-width: 575px) {
+    #moreDesign .sectionHeading h3{ font-size: 1.25rem;}
+    #moreDesign .productList li a .imgBox { padding: 8px;}
+    #moreDesign .productList li a .imgBox img { height: 120px !important; }
+    #moreDesign .productList li a p{ font-size: 12px; padding: 8px 10px;}
+}

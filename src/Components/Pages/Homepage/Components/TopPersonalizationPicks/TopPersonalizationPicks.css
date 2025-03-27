@@ -1,0 +1,17 @@
+#topPersonalizationPicks .sectionHeading h3{font-size: 1.5rem; font-weight: 400;}
+#topPersonalizationPicks .topPicksWrapper ul li{padding: 0 15px 20px; border-bottom: 3px solid transparent;}
+#topPersonalizationPicks .topPicksWrapper ul li a{text-decoration: none; color: #000000; font-size: 14px;}
+#topPersonalizationPicks .topPicksWrapper ul li a p{margin: 10px 0 0 0;}
+
+@media (max-width: 991px) {
+    #topPersonalizationPicks .topPicksWrapper ul li a{display: block; max-width: 85px;}
+}
+
+@media (max-width: 767px) {
+    #topPersonalizationPicks .topPicksWrapper ul li a{min-width: 130px;}
+}
+
+@media (max-width: 575px) {
+    #topPersonalizationPicks .topPicksWrapper ul li{ padding: 0 10px 5px;}
+    #topPersonalizationPicks .topPicksWrapper ul li a {min-width: 110px;}
+}

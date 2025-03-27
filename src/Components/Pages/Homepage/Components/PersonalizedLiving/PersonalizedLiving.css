@@ -1,0 +1,19 @@
+#personalizedLiving .sectionHeading h3{font-size: 1.5rem; font-weight: 400;}
+#personalizedLiving .productList{ gap: 15px;}
+#personalizedLiving .productList li a{ display: block; text-decoration: none; color: #4c4c4c; font-weight: 600;}
+#personalizedLiving .productList li a img{ border: 1px solid #f1f1f1; border-radius: 6px; width: 100%; object-fit: cover;} 
+#personalizedLiving .productList li a p{font-size: 14px; text-align: center; padding: 20px 10px; min-height: 85px;}
+#personalizedLiving .productList li a:hover p{color: #F42F77; transition: .3s all ease-in-out;}
+#personalizedLiving .productList li span{ background-color: #f1f1f1; font-size: 12px; padding: 8px 10px; border-radius: 6px;}
+#personalizedLiving .productList li span b{ font-size: 14px;}
+#personalizedLiving .callToAction a{ background-color: #F42F77; color: #ffffff; font-size: 14px; padding: 8px 25px;}
+
+@media (max-width: 991px) {
+    #personalizedLiving .productList{ overflow-x: scroll; overflow-y: hidden; padding-bottom: 12px;}
+    #personalizedLiving .productList li a img{ width: 190px; height: 190px;}
+    #personalizedLiving .productList li a p{ padding: 15px 10px; min-height: 75px;}
+}
+
+@media (max-width: 575px) {
+    #personalizedLiving .sectionHeading h3{ font-size: 1.25rem;}
+}

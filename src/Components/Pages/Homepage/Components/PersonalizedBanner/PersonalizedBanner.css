@@ -1,0 +1,20 @@
+#personalizedBannerWrapper img{ width: 100vw; height: 100vh; object-fit: cover;}
+#personalizedBannerWrapper .overlayText{ position: absolute; bottom: 50px; left: 15vw; background-color: rgb(0 0 0 / 80%);
+    color: #ffffff; padding: 30px; font-size: 24px; margin: 0;}
+#personalizedBannerWrapper .overlayText span{ display: inline-block; position: relative; z-index: 99999; margin: 0 30px 0 2px;}
+#personalizedBannerWrapper .overlayText span::after{ content: '+'; background: #ff006b; border-radius: 25px; position: absolute;
+    left: 0; bottom: -4px; width: 45px; height: 45px; text-align: center; border: 3px solid #ffffff; font-size: 23px;}
+    
+    @media (max-width: 991px) {
+        #personalizedBannerWrapper .overlayText{ padding: 15px; font-size: 18px;} 
+        #personalizedBannerWrapper .overlayText span::after{ width: 35px; height: 35px; font-size: 18px;}
+        #personalizedBannerWrapper .overlayText span{margin:0 25px 0 2px;}
+    }
+    
+    @media (max-width: 575px) {
+        #personalizedBannerWrapper img{ height: 60vh;}
+        #personalizedBannerWrapper .overlayText{ left: 8vw;}
+        #personalizedBannerWrapper .overlayText { padding: 12px; font-size: 16px; }
+        #personalizedBannerWrapper .overlayText span {margin: 0 15px 0 2px;}
+        #personalizedBannerWrapper .overlayText span::after {width: 25px; height: 25px; font-size: 14px; border: 1px solid #fff; bottom: -1px;}
+    }    

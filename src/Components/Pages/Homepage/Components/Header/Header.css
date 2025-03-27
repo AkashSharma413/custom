@@ -1,0 +1,47 @@
+#topHeader{ background: rgb(255, 242, 216); border-bottom: 1px solid #dbdbdb;}
+#topHeader ul li{ border-right: 1px solid #838383; padding-right: 10px; margin-right: 10px; }
+#topHeader ul li:last-child{ border-right: none; padding-right: 0; margin-right: 0;}
+#mainHeader .searchBox{ border: 5px solid #f1f1f1; border-radius: 5px; position: relative;}
+#mainHeader .searchBox input[type="text"]{ position: relative; width: 100%; padding:10px 75px 10px 15px; border: none;}
+#mainHeader .searchBox input[type="text"]:focus-visible{outline: none;}
+#mainHeader .searchBox button[type="submit"]{position: absolute; right: 0; height: 100%; border: 0; background-color: #F42F77;
+     padding: 5px 20px; color: #fff; border-radius: 0 5px 5px 0;}
+#mainHeader .loginBox{ gap: 25px;}
+#mainHeader .loginBox li a{ position: relative; color: #4c4c4c; font-size: 18px; text-decoration: none;}
+#mainHeader .loginBox li a:hover{ color: #F42F77; transition: all .3s ease-in-out;}
+#mainHeader .loginBox li a span.count{position: absolute; top: -12px; background-color: #ff006d; padding: 0 4px; font-size: 12px;
+     border-radius: 25px; color: #ffffff;}
+#mainHeader .loginBox li a span.userLogin{ margin-left: 6px; font-size: 14px;}
+#bottomHeader ul li{padding: 0 15px 20px; border-bottom: 3px solid transparent;}
+#bottomHeader ul li.active{ border-bottom: 3px solid #F42F77; }
+#bottomHeader ul li:hover{ border-bottom: 3px solid #F42F77; transition: .3s all ease-in-out; cursor: pointer;}
+#bottomHeader ul li a{text-decoration: none; color: #000000; font-size: 14px;}
+#bottomHeader ul li a p{margin: 10px 0 0 0;}
+
+@media (max-width: 1199px) {
+     #bottomHeader ul li{padding: 0 5px 12px;}
+     #bottomHeader ul li a{ font-size: 12px;}
+}
+
+@media (max-width: 991px) {
+     #bottomHeader ul{ overflow: scroll;}
+     #bottomHeader ul li{min-width: 90px;}
+}
+
+@media (max-width: 767px) {
+     #topHeader ul li{ border: none; padding: 0; margin: 0; font-size: 14px;}
+}
+
+ @media (max-width: 575px) {
+     #topHeader ul li{ font-size: 12px;}
+     #mainHeader .loginBox { gap: 10px; }
+     #mainHeader .loginBox li a{ font-size: 12px;}
+     #mainHeader .loginBox li a span.count{ top: -8px; font-size: 8px;}
+     #mainHeader .loginBox li a span.userLogin{ font-size: 12px;}
+     #mainHeader .searchBox{ border: 3px solid #f1f1f1;}
+     #mainHeader .searchBox input[type="text"]{ font-size: 14px; padding: 5px 70px 5px 10px;}
+     #mainHeader .searchBox button[type="submit"]{padding: 5px 12px; display: flex; top: 0; align-items: center;}
+     #mainHeader .searchBox button[type="submit"] i{ font-size: 12px;}
+     #bottomHeader ul li { min-width: 60px; }
+     #bottomHeader ul li a{font-size: 10px;}
+}

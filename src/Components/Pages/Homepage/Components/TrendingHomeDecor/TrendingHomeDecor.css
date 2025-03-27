@@ -1,0 +1,30 @@
+#trendingHomeDecor .sectionHeading h3{font-size: 1.5rem; font-weight: 400;}
+#trendingHomeDecor .productList{ gap: 15px;}
+#trendingHomeDecor .productList li{ margin-bottom: 12px;}
+#trendingHomeDecor .productList li a{ display: block; text-decoration: none; color: #4c4c4c; font-weight: 600; max-width: 210px;}
+#trendingHomeDecor .productList li a img{ border: 1px solid #f1f1f1; border-radius: 6px; width: 100%; min-width: 210px; object-fit: cover;} 
+#trendingHomeDecor .productList li a p{font-size: 14px; text-align: center; padding: 20px 10px; min-height: 85px;}
+#trendingHomeDecor .productList li a:hover p{color: #F42F77; transition: .3s all ease-in-out;}
+#trendingHomeDecor .productList li span{ background-color: #f1f1f1; font-size: 12px; padding: 8px 10px; border-radius: 6px;}
+#trendingHomeDecor .productList li span b{ font-size: 14px;}
+#trendingHomeDecor .callToAction a{ background-color: #F42F77; color: #ffffff; font-size: 14px; padding: 8px 25px;}
+
+@media (max-width: 1199px) {
+    #trendingHomeDecor .productList li a{ max-width: 170px;}
+    #trendingHomeDecor .productList li a img{ min-width: auto;}
+}
+
+@media (max-width: 991px) {
+    #trendingHomeDecor .productList li a { max-width: 220px;}
+}
+
+@media (max-width: 767px) {
+    #trendingHomeDecor .productList li a img { min-width: 230px;}
+}
+
+@media (max-width: 575px) {
+    #trendingHomeDecor .sectionHeading h3{ font-size: 1.25rem;}
+    #trendingHomeDecor .productList li a{ max-width: 130px;}
+    #trendingHomeDecor .productList li a img { min-width: auto; height: auto;}
+    #trendingHomeDecor .productList li a p{ font-size: 13px; padding: 15px 0px;}
+}
