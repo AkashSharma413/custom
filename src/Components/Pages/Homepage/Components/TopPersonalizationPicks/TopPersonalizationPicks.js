@@ -1,6 +1,7 @@
 import React from "react";
 import "./TopPersonalizationPicks.css";
 import { Link } from "react-router-dom";
+import UseImage from "../../../../UseImage";
 
 const TopPersonalizationPicks = () => {
   return (
@@ -19,37 +20,67 @@ const TopPersonalizationPicks = () => {
               <ul className="list-unstyled d-flex justify-content-between mb-0 text-center flex-wrap">
                 <li>
                   <Link to="/" title="Area Rugs">
-                    <img src="./images/toppick1.png" alt="Area Rugs" className="img-fluid" width="124" />
+                    <UseImage
+                      src="./images/toppick1.png"
+                      alt="Area Rugs"
+                      className="img-fluid"
+                      width={124}
+                    />
                     <p>Area Rugs</p>
                   </Link>
                 </li>
                 <li>
                   <Link to="/" title="Photo And Art Prints">
-                    <img src="./images/toppick2.png" alt="Art Prints" className="img-fluid" width="124" />
+                    <UseImage
+                      src="./images/toppick2.png"
+                      alt="Art Prints"
+                      className="img-fluid"
+                      width={124}
+                    />
                     <p>Photo And Art Prints</p>
                   </Link>
                 </li>
                 <li>
                   <Link to="/" title="Poster Prints">
-                    <img src="./images/toppick3.png" alt="Poster Prints" className="img-fluid" width="124" />
+                    <UseImage
+                      src="./images/toppick3.png"
+                      alt="Poster Prints"
+                      className="img-fluid"
+                      width={124}
+                    />
                     <p>Poster Prints</p>
                   </Link>
                 </li>
                 <li>
                   <Link to="/" title="Acrylic Prints">
-                    <img src="./images/toppick4.png" alt="Acrylic Prints" className="img-fluid" width="124" />
+                    <UseImage
+                      src="./images/toppick4.png"
+                      alt="Acrylic Prints"
+                      className="img-fluid"
+                      width={124}
+                    />
                     <p>Acrylic Prints</p>
                   </Link>
                 </li>
                 <li>
                   <Link to="/" title="Canvas Prints">
-                    <img src="./images/toppick5.png" alt="Canvas Prints" className="img-fluid" width="124" />
+                    <UseImage
+                      src="./images/toppick5.png"
+                      alt="Canvas Prints"
+                      className="img-fluid"
+                      width={124}
+                    />
                     <p>Canvas Prints</p>
                   </Link>
                 </li>
                 <li>
                   <Link to="/" title="Tapestries">
-                    <img src="./images/toppick6.png" alt="Tapestries" className="img-fluid" width="124" />
+                    <UseImage
+                      src="./images/toppick6.png"
+                      alt="Tapestries"
+                      className="img-fluid"
+                      width={124}
+                    />
                     <p>Tapestries</p>
                   </Link>
                 </li>

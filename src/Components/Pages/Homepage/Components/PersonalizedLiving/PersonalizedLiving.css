@@ -6,7 +6,7 @@
 #personalizedLiving .productList li a:hover p{color: #F42F77; transition: .3s all ease-in-out;}
 #personalizedLiving .productList li span{ background-color: #f1f1f1; font-size: 12px; padding: 8px 10px; border-radius: 6px;}
 #personalizedLiving .productList li span b{ font-size: 14px;}
-#personalizedLiving .callToAction a{ background-color: #F42F77; color: #ffffff; font-size: 14px; padding: 8px 25px;}
+#personalizedLiving .callToAction a{ background-color: #F42F77; color: #f8f8f8; font-size: 14px; padding: 8px 25px; font-weight: bold;}
 
 @media (max-width: 991px) {
     #personalizedLiving .productList{ overflow-x: scroll; overflow-y: hidden; padding-bottom: 12px;}

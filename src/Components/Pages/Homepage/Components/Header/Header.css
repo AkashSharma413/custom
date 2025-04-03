@@ -5,7 +5,7 @@
 #mainHeader .searchBox input[type="text"]{ position: relative; width: 100%; padding:10px 75px 10px 15px; border: none;}
 #mainHeader .searchBox input[type="text"]:focus-visible{outline: none;}
 #mainHeader .searchBox button[type="submit"]{position: absolute; right: 0; height: 100%; border: 0; background-color: #F42F77;
-     padding: 5px 20px; color: #fff; border-radius: 0 5px 5px 0;}
+     padding: 5px 20px; color: #ffffff; border-radius: 0 5px 5px 0;}
 #mainHeader .loginBox{ gap: 25px;}
 #mainHeader .loginBox li a{ position: relative; color: #4c4c4c; font-size: 18px; text-decoration: none;}
 #mainHeader .loginBox li a:hover{ color: #F42F77; transition: all .3s ease-in-out;}

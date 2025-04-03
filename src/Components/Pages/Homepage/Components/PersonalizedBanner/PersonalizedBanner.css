@@ -16,5 +16,5 @@
         #personalizedBannerWrapper .overlayText{ left: 8vw;}
         #personalizedBannerWrapper .overlayText { padding: 12px; font-size: 16px; }
         #personalizedBannerWrapper .overlayText span {margin: 0 15px 0 2px;}
-        #personalizedBannerWrapper .overlayText span::after {width: 25px; height: 25px; font-size: 14px; border: 1px solid #fff; bottom: -1px;}
+        #personalizedBannerWrapper .overlayText span::after {width: 25px; height: 25px; font-size: 14px; border: 1px solid #ffffff; bottom: -1px;}
     }    

@@ -6,7 +6,7 @@
 #moreDesign .productList li a:hover .imgBox img{ transform: scale(1.2);}
 #moreDesign .productList li a p{font-size: 14px; text-align: center; padding: 20px 10px; transition: all .5s ease;}
 #moreDesign .productList li a:hover p{ color: #F42F77;}
-#moreDesign .callToAction a{ background-color: #F42F77; color: #ffffff; font-size: 14px; padding: 8px 25px;}
+#moreDesign .callToAction a{ background-color: #F42F77; color: #f8f8f8; font-size: 14px; padding: 8px 25px; font-weight: bold;}
 
 @media (max-width: 1199px) {
     #moreDesign .productList li a .imgBox img{ height: 250px !important; }

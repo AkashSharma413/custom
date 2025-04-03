@@ -1,6 +1,7 @@
 import React from "react";
 import "./MoreDesign.css";
 import { Link } from "react-router-dom";
+import UseImage from "../../../../UseImage";
 
 const MoreDesign = () => {
   return (
@@ -22,10 +23,10 @@ const MoreDesign = () => {
                 <li>
                   <Link to="/">
                     <div className="imgBox">
-                      <img
+                      <UseImage
                         src="./images/Design.png"
                         alt="Neon Designs"
-                        height="200"
+                        height={200}
                       />
                     </div>
                     <p className="mb-0">Neon Designs</p>
@@ -34,10 +35,10 @@ const MoreDesign = () => {
                 <li>
                   <Link to="/">
                     <div className="imgBox">
-                      <img
+                      <UseImage
                         src="./images/Vintage.png"
                         alt="Vintage"
-                        height="200"
+                        height={200}
                       />
                     </div>
                     <p className="mb-0">Vintage</p>
@@ -46,10 +47,10 @@ const MoreDesign = () => {
                 <li>
                   <Link to="/">
                     <div className="imgBox">
-                      <img
+                      <UseImage
                         src="./images/Abstract.png"
                         alt="Abstract"
-                        height="200"
+                        height={200}
                       />
                     </div>
                     <p className="mb-0">Abstract</p>
@@ -58,10 +59,10 @@ const MoreDesign = () => {
                 <li>
                   <Link to="/">
                     <div className="imgBox">
-                      <img
+                      <UseImage
                         src="./images/Space_and_Astronomy.png"
                         alt="Space and Astronomy"
-                        height="200"
+                        height={200}
                       />
                     </div>
                     <p className="mb-0">Space and Astronomy</p>
@@ -70,10 +71,10 @@ const MoreDesign = () => {
                 <li>
                   <Link to="/">
                     <div className="imgBox">
-                      <img
+                      <UseImage
                         src="./images/Nature.png"
                         alt="Nature"
-                        height="200"
+                        height={200}
                       />
                     </div>
                     <p className="mb-0">Nature</p>
@@ -82,7 +83,11 @@ const MoreDesign = () => {
                 <li>
                   <Link to="/">
                     <div className="imgBox">
-                      <img src="./images/Kids.png" alt="Kids" height="200" />
+                      <UseImage
+                        src="./images/Kids.png"
+                        alt="Kids"
+                        height={200}
+                      />
                     </div>
                     <p className="mb-0">Kids</p>
                   </Link>
@@ -90,10 +95,10 @@ const MoreDesign = () => {
                 <li>
                   <Link to="/">
                     <div className="imgBox">
-                      <img
+                      <UseImage
                         src="./images/Geometric.png"
                         alt="Geometric"
-                        height="200"
+                        height={200}
                       />
                     </div>
                     <p className="mb-0">Geometric</p>
@@ -102,10 +107,10 @@ const MoreDesign = () => {
                 <li>
                   <Link to="/">
                     <div className="imgBox">
-                      <img
+                      <UseImage
                         src="./images/Minimalist.png"
                         alt="Minimalist"
-                        height="200"
+                        height={200}
                       />
                     </div>
                     <p className="mb-0">Minimalist</p>
@@ -114,10 +119,10 @@ const MoreDesign = () => {
                 <li>
                   <Link to="/">
                     <div className="imgBox">
-                      <img
+                      <UseImage
                         src="./images/Botanical.png"
                         alt="Botanical"
-                        height="200"
+                        height={200}
                       />
                     </div>
                     <p className="mb-0">Botanical</p>
@@ -126,10 +131,10 @@ const MoreDesign = () => {
                 <li>
                   <Link to="/">
                     <div className="imgBox">
-                      <img
+                      <UseImage
                         src="./images/Food_and_Drink.png"
                         alt="Food and Drink"
-                        height="200"
+                        height={200}
                       />
                     </div>
                     <p className="mb-0">Food and Drink</p>

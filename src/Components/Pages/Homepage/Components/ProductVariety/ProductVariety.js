@@ -1,6 +1,7 @@
 import React from "react";
 import "./ProductVariety.css";
 import { Link } from "react-router-dom";
+import UseImage from "../../../../UseImage";
 
 const ProductVariety = () => {
   return (
@@ -13,7 +14,7 @@ const ProductVariety = () => {
               <div className="row">
                 <div className="col-lg-4 col-12">
                   <div className="productThumbnail">
-                    <img
+                    <UseImage
                       src="./images/curtainThumb.jpg"
                       alt="Curtain Thumb"
                       className="img-fluid"
@@ -29,7 +30,7 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Custom Drapes">
                         <div className="imgBox mb-3">
-                          <img
+                          <UseImage
                             src="./images/curtain1.jpg"
                             alt="Custom Drapes"
                           />
@@ -40,7 +41,7 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Blackout Curtains">
                         <div className="imgBox mb-3">
-                          <img
+                          <UseImage
                             src="./images/curtain2.jpg"
                             alt="Blackout Curtains"
                           />
@@ -51,7 +52,7 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Shower Curtains">
                         <div className="imgBox mb-3">
-                          <img
+                          <UseImage
                             src="./images/curtain3.jpg"
                             alt="Shower Curtains"
                           />
@@ -62,7 +63,7 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Sheer Curtains">
                         <div className="imgBox mb-3">
-                          <img
+                          <UseImage
                             src="./images/curtain4.jpg"
                             alt="Sheer Curtains"
                           />
@@ -89,8 +90,8 @@ const ProductVariety = () => {
               <div className="row">
                 <div className="col-lg-4 col-12">
                   <div className="productThumbnail">
-                    <img
-                      src="./images/wallThumb.jpg"
+                    <UseImage
+                      src="./images/tapestryThumb.jpg"
                       alt="Curtain Thumb"
                       className="img-fluid"
                     />
@@ -105,8 +106,8 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Custom Wallpapers">
                         <div className="imgBox mb-3">
-                          <img
-                            src="./images/wall1.png"
+                          <UseImage
+                            src="./images/tapestry1.png"
                             alt="Custom Wallpapers"
                           />
                         </div>
@@ -116,8 +117,8 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Custom Wall Murals">
                         <div className="imgBox mb-3">
-                          <img
-                            src="./images/wall2.png"
+                          <UseImage
+                            src="./images/tapestry2.png"
                             alt="Custom Wall Murals"
                           />
                         </div>
@@ -127,10 +128,7 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Photo And Art Prints">
                         <div className="imgBox mb-3">
-                          <img
-                            src="./images/wall3.png"
-                            alt="Art Prints"
-                          />
+                          <UseImage src="./images/tapestry3.png" alt="Art Prints" />
                         </div>
                         <p className="mb-0">Photo And Art Prints</p>
                       </Link>
@@ -138,8 +136,8 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Canvas Prints">
                         <div className="imgBox mb-3">
-                          <img
-                            src="./images/wall4.png"
+                          <UseImage
+                            src="./images/tapestry4.png"
                             alt="Canvas Prints"
                           />
                         </div>
@@ -165,7 +163,7 @@ const ProductVariety = () => {
               <div className="row">
                 <div className="col-lg-4 col-12">
                   <div className="productThumbnail">
-                    <img
+                    <UseImage
                       src="./images/pillowThumb.jpg"
                       alt="Curtain Thumb"
                       className="img-fluid"
@@ -181,7 +179,7 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Throw Pillows">
                         <div className="imgBox mb-3">
-                          <img
+                          <UseImage
                             src="./images/pillow1.jpg"
                             alt="Throw Pillows"
                           />
@@ -192,10 +190,7 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Cushions">
                         <div className="imgBox mb-3">
-                          <img
-                            src="./images/pillow2.jpg"
-                            alt="Cushions"
-                          />
+                          <UseImage src="./images/pillow2.jpg" alt="Cushions" />
                         </div>
                         <p className="mb-0">Cushions</p>
                       </Link>
@@ -203,7 +198,7 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Bow Pillows">
                         <div className="imgBox mb-3">
-                          <img
+                          <UseImage
                             src="./images/pillow3.jpg"
                             alt="Bow Pillows"
                           />
@@ -214,7 +209,7 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Bed Pillows">
                         <div className="imgBox mb-3">
-                          <img
+                          <UseImage
                             src="./images/pillow4.jpg"
                             alt="Bed Pillows"
                           />
@@ -241,7 +236,7 @@ const ProductVariety = () => {
               <div className="row">
                 <div className="col-lg-4 col-12">
                   <div className="productThumbnail">
-                    <img
+                    <UseImage
                       src="./images/tapestryThumb.jpg"
                       alt="Curtain Thumb"
                       className="img-fluid"
@@ -257,7 +252,7 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Custom Wall Tapestries">
                         <div className="imgBox mb-3">
-                          <img
+                          <UseImage
                             src="./images/tapestry1.jpg"
                             alt="Custom Wall Tapestries"
                           />
@@ -268,7 +263,7 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Custom Panoramic Tapestries">
                         <div className="imgBox mb-3">
-                          <img
+                          <UseImage
                             src="./images/tapestry2.jpg"
                             alt="Custom Panoramic Tapestries"
                           />
@@ -279,7 +274,7 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Custom Triangular Tapestries">
                         <div className="imgBox mb-3">
-                          <img
+                          <UseImage
                             src="./images/tapestry3.jpg"
                             alt="Custom Triangular Tapestries"
                           />
@@ -290,7 +285,7 @@ const ProductVariety = () => {
                     <li>
                       <Link to="/" title="Custom Hanging Tapestries">
                         <div className="imgBox mb-3">
-                          <img
+                          <UseImage
                             src="./images/tapestry4.jpg"
                             alt="Custom Hanging Tapestries"
                           />

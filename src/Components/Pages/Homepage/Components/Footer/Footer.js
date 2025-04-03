@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import UseImage from "../../../../UseImage";
 
 const Footer = () => {
   return (
@@ -158,16 +159,16 @@ const Footer = () => {
               <div className="col-xl-7 col-12 mt-xl-0 mt-3 d-sm-flex">
                 <p className="me-sm-4">
                   Payment Methods{" "}
-                  <img src="./images/paymentmethod1.png" alt="" />{" "}
-                  <img src="./images/paymentmethod2.png" alt="" />
-                  <img src="./images/paymentmethod3.png" alt="" />{" "}
-                  <img src="./images/paymentmethod4.png" alt="" />
-                  <img src="./images/paymentmethod5.png" alt="" />{" "}
-                  <img src="./images/paymentmethod6.png" alt="" />
+                  <UseImage src="./images/paymentmethod1.png" alt="" />
+                  <UseImage src="./images/paymentmethod2.png" alt="" />
+                  <UseImage src="./images/paymentmethod3.png" alt="" />
+                  <UseImage src="./images/paymentmethod4.png" alt="" />
+                  <UseImage src="./images/paymentmethod5.png" alt="" />
+                  <UseImage src="./images/paymentmethod6.png" alt="" />
                 </p>
                 <p className="mt-sm-0 mt-2">
                   Secured by:
-                  <img
+                  <UseImage
                     src="./images/securityBy.png"
                     alt=""
                     className="secureImg"

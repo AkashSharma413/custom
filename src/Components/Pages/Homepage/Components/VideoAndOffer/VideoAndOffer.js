@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./VideoAndOffer.css";
 import { Link } from "react-router-dom";
 
 const VideoAndOffer = () => {
+  const [posterSrc, setPosterSrc] = useState("");
+
+  const getOptimizedPoster = (baseName) => {
+    const avifTest = document.createElement("canvas").toDataURL("image/avif").indexOf("data:image/avif") === 0;
+    const webpTest = document.createElement("canvas").toDataURL("image/webp").indexOf("data:image/webp") === 0;
+  
+    if (avifTest) return `${baseName}.avif`;
+    if (webpTest) return `${baseName}.webp`;
+    return `${baseName}.jpg`; // Fallback to JPEG
+  };
+
+  useEffect(() => {
+    setPosterSrc(getOptimizedPoster("./images/how_to_use_revised"));
+  }, []);
+  
   return (
     <>
       <section id="videoAndOffer">
@@ -12,7 +27,7 @@ const VideoAndOffer = () => {
               <video
                 width="100%"
                 height="auto"
-                poster="https://ds5e5and3r3r0.cloudfront.net/neonearth/images/contentimages/images/how_to_use_revised.jpg"
+                poster={posterSrc}
                 controls
               >
                 <source
@@ -32,7 +47,9 @@ const VideoAndOffer = () => {
                 <h4 className="d-block text-dark font_bold mb-0 offer_text offerText">
                   15% OFF Sitewide
                 </h4>
-                <p className="mb-0">+ $15 Worth Wallet Points For Next Purchase</p>
+                <p className="mb-0">
+                  + $15 Worth Wallet Points For Next Purchase
+                </p>
                 <div className="text-center py-md-0 pt-4 d-flex mt-md-3 align-items-center justify-content-center justify-content-md-start justify-content-xl-center offerBtn">
                   <div className="text-center home_cupon py-2 px-3 rounded-2">
                     <span>

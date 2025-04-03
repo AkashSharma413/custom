@@ -1,6 +1,7 @@
 import React from "react";
 import "./Blog.css";
 import { Link } from "react-router-dom";
+import UseImage from "../../../../UseImage";
 
 const Blog = () => {
   return (
@@ -19,7 +20,7 @@ const Blog = () => {
               <div className="blogWrapper">
                 <div className="blogThumb mb-3">
                   <Link to="/" title="">
-                    <img
+                    <UseImage
                       src="./images/blogThumb1.png"
                       alt=""
                       className="img-fluid"
@@ -47,7 +48,7 @@ const Blog = () => {
               <div className="blogWrapper">
                 <div className="blogThumb mb-3">
                   <Link to="/" title="">
-                    <img
+                    <UseImage
                       src="./images/blogThumb2.png"
                       alt=""
                       className="img-fluid"
@@ -75,7 +76,7 @@ const Blog = () => {
               <div className="blogWrapper">
                 <div className="blogThumb mb-3">
                   <Link to="/" title="">
-                    <img
+                    <UseImage
                       src="./images/blogThumb3.png"
                       alt=""
                       className="img-fluid"

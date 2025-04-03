@@ -1,6 +1,7 @@
 import React from "react";
 import "./TrendingHomeDecor.css";
 import { Link } from "react-router-dom";
+import UseImage from "../../../../UseImage";
 
 const TrendingHomeDecor = () => {
   return (
@@ -19,10 +20,10 @@ const TrendingHomeDecor = () => {
               <ul className="list-unstyled mb-0 d-flex justify-content-between text-center productList flex-wrap">
                 <li>
                   <Link to="/" title="Custom Panoramic Tapestry - Velvet Satin">
-                    <img
+                    <UseImage
                       src="./images/trend1.png"
                       alt="Custom Panoramic Tapestry - Velvet Satin"
-                      height="200"
+                      height={200}
                     />
                     <p className="mb-0">
                       Custom Panoramic Tapestry - Velvet Satin
@@ -34,10 +35,10 @@ const TrendingHomeDecor = () => {
                 </li>
                 <li>
                   <Link to="/" title="Custom Sheer Curtain - Polyester Linen">
-                    <img
+                    <UseImage
                       src="./images/trend2.png"
                       alt="Custom Sheer Curtain - Polyester Linen"
-                      height="200"
+                      height={200}
                     />
                     <p className="mb-0">
                       Custom Sheer Curtain - Polyester Linen
@@ -49,10 +50,10 @@ const TrendingHomeDecor = () => {
                 </li>
                 <li>
                   <Link to="/" title="Custom Women's Hoodie - White">
-                    <img
-                      src="./images/trend3.png"
+                    <UseImage
+                      src="./images/trend1.png"
                       alt="Custom Women's Hoodie - White"
-                      height="200"
+                      height={200}
                     />
                     <p className="mb-0">Custom Women's Hoodie - White</p>
                   </Link>
@@ -62,10 +63,10 @@ const TrendingHomeDecor = () => {
                 </li>
                 <li>
                   <Link to="/" title="Custom Classic Tote Bag">
-                    <img
+                    <UseImage
                       src="./images/trend4.png"
                       alt="Custom Classic Tote Bag"
-                      height="200"
+                      height={200}
                     />
                     <p className="mb-0">Custom Classic Tote Bag</p>
                   </Link>
@@ -75,10 +76,10 @@ const TrendingHomeDecor = () => {
                 </li>
                 <li>
                   <Link to="/" title="Custom Coffee Mugs">
-                    <img
+                    <UseImage
                       src="./images/trend5.png"
                       alt="Custom Coffee Mugs"
-                      height="200"
+                      height={200}
                     />
                     <p className="mb-0">Custom Coffee Mugs</p>
                   </Link>
@@ -88,10 +89,10 @@ const TrendingHomeDecor = () => {
                 </li>
                 <li>
                   <Link to="/" title="Custom Waist Apron">
-                    <img
-                      src="./images/trend6.png"
+                    <UseImage
+                      src="./images/trend2.png"
                       alt="Custom Waist Apron"
-                      height="200"
+                      height={200}
                     />
                     <p className="mb-0">Custom Waist Apron</p>
                   </Link>
@@ -101,10 +102,10 @@ const TrendingHomeDecor = () => {
                 </li>
                 <li>
                   <Link to="/" title="Rug - Luxe Grain - Rectangle">
-                    <img
-                      src="./images/trend7.png"
+                    <UseImage
+                      src="./images/trend10.png"
                       alt="Rug - Luxe Grain - Rectangle"
-                      height="200"
+                      height={200}
                     />
                     <p className="mb-0">Rug - Luxe Grain - Rectangle</p>
                   </Link>
@@ -114,10 +115,10 @@ const TrendingHomeDecor = () => {
                 </li>
                 <li>
                   <Link to="/" title="Custom Wallpaper - Stone Grain">
-                    <img
-                      src="./images/trend8.png"
+                    <UseImage
+                      src="./images/trend4.png"
                       alt="Custom Wallpaper - Stone Grain"
-                      height="200"
+                      height={200}
                     />
                     <p className="mb-0">Custom Wallpaper - Stone Grain</p>
                   </Link>
@@ -127,10 +128,10 @@ const TrendingHomeDecor = () => {
                 </li>
                 <li>
                   <Link to="/" title="Custom Women's Full Sarong ">
-                    <img
-                      src="./images/trend9.png"
+                    <UseImage
+                      src="./images/trend5.png"
                       alt="Custom Women's Full Sarong "
-                      height="200"
+                      height={200}
                     />
                     <p className="mb-0">Custom Women's Full Sarong </p>
                   </Link>
@@ -140,10 +141,10 @@ const TrendingHomeDecor = () => {
                 </li>
                 <li>
                   <Link to="/" title="Doormat - Rectangle">
-                    <img
+                    <UseImage
                       src="./images/trend10.png"
                       alt="Doormat - Rectangle"
-                      height="200"
+                      height={200}
                     />
                     <p className="mb-0">Doormat - Rectangle</p>
                   </Link>
